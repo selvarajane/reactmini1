@@ -1,0 +1,39 @@
+.personal-bio {
+  padding: 20px;
+  margin: 20px 0;
+  border: 2px solid #646cff;
+  border-radius: 8px;
+  background-color: rgba(100, 108, 255, 0.1);
+}
+
+.bio-name {
+  color: #646cff;
+  font-size: 2em;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.bio-age {
+  color: #888;
+  font-size: 1.2em;
+  margin-bottom: 15px;
+  font-weight: 500;
+}
+
+.bio-text {
+  color: rgba(255, 255, 255, 0.87);
+  font-size: 1.1em;
+  line-height: 1.6;
+  text-align: left;
+}
+
+@media (prefers-color-scheme: light) {
+  .personal-bio {
+    background-color: rgba(100, 108, 255, 0.05);
+  }
+  
+  .bio-text {
+    color: #213547;
+  }
+}
+
