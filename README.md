@@ -1,16 +1,27 @@
-# React + Vite
+# react mini 1
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React project demonstrating 4 basic components using Vite.
 
-Currently, two official plugins are available:
+## Components
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. **PersonalBio** - Displays personal information (name, age, bio) using props and external CSS
+2. **GreetingApp** - Greets a user by name using props and inline CSS
+3. **SimpleCounter** - A counter component with increment functionality using React state
+4. **HobbiesList** - Renders a list of hobbies from an array prop with styled CSS
 
-## React Compiler
+## Getting Started
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Install dependencies:
+```bash
+npm install
+```
 
-## Expanding the ESLint configuration
+Run the development server:
+```bash
+npm run dev
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Build for production:
+```bash
+npm run build
+```
